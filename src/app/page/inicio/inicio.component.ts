@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { RouterModule } from '@angular/router';
+
 
 @Component({
   standalone: true,
-  imports: [],
+  imports: [RouterModule],
   templateUrl: './inicio.component.html',
-  styles: ``
+  styleUrl: './inicio.component.css'
 })
 export default class InicioComponent {
 
