@@ -1,3 +1,4 @@
+import { animate, transition } from '@angular/animations';
 import { Component } from '@angular/core';
 
 @Component({
@@ -8,4 +9,9 @@ import { Component } from '@angular/core';
 })
 export default class ProyectosComponent {
 
+  isOpen: boolean = false;
+
+  toggleContent(){
+    this.isOpen =!this.isOpen;
+  }
 }
