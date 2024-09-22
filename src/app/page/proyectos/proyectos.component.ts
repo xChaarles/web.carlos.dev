@@ -10,8 +10,13 @@ import { Component } from '@angular/core';
 export default class ProyectosComponent {
 
   isOpen: boolean = false;
+  isOpen1: boolean = false;
 
   toggleContent(){
     this.isOpen =!this.isOpen;
+  };
+
+  toggleContent1(){
+    this.isOpen1 =!this.isOpen1;
   }
 }
