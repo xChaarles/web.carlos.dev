@@ -13,6 +13,7 @@ export default class InicioComponent {
 
   isOpen: boolean = false;
   isOpen1: boolean = false;
+  isOpen3: boolean = false;
 
   toggleContent(){
     this.isOpen =!this.isOpen;
@@ -20,6 +21,10 @@ export default class InicioComponent {
 
   toggleContent1(){
     this.isOpen1 =!this.isOpen1;
+  }
+
+  toggleContent3(){
+    this.isOpen3 =!this.isOpen3;
   }
 
   constructor(private clipboard: Clipboard) {}
